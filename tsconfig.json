@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"target": "es6",
+		"module": "commonjs",
+		"sourceMap": true,
+		"outDir": "./build",
+		"baseUrl": "./",
+		"moduleResolution": "Node",
+		"resolveJsonModule": true,
+		"esModuleInterop": true,
+		"allowJs": true
+	},
+	"include": [
+		"*.ts",
+		"*.js",
+		"*.json",
+		"*.json5"
+	],
+	"exclude": [
+		"node_modules"
+	]
+}

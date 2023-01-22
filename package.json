@@ -1,0 +1,24 @@
+{
+	"name": "valuta-service",
+	"version": "0.0.1",
+	"description": "Valuta service is able to calculate valuta objects. Use it as a non-blocking process",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "Krasimir Koeff",
+	"license": "ISC",
+	"dependencies": {
+		"@types/node": "^13.11.1",
+		"@types/pino": "^6.0.0",
+		"app-module-path": "^2.2.0",
+		"break_infinity.js": "^1.1.0",
+		"fastify": "^2.13.1",
+		"pino": "^6.2.0",
+		"tspath": "^1.3.6",
+		"typescript": "^3.8.3"
+	},
+	"devDependencies": {
+		"compile-schemas-to-typescript": "^0.2.0"
+	}
+}
